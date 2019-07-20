@@ -112,7 +112,7 @@ Before `compile`  qitmeer-miner, you need prepare the running environment:
   - copy the config file:   
   `$ cp halalchainminer.conf.example halalchainminer.conf ` 
   
-  - modify the config file `halalchainminer.conf`. Solo-mining Config below:
+  - modify the config file `halalchainminer.conf`. Solo-mining Config example below:
   
   ```bash
   # the miner config file
