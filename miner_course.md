@@ -67,7 +67,7 @@ Before `compile`  qitmeer-miner, you need prepare the running environment:
   
   then set windows env，like `LIBRARY_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64`
 
-  may be like this: 
+  may be like this:    
   ![image](https://user-images.githubusercontent.com/32875657/61025357-0cd99300-a3e3-11e9-9d4d-582b7dfe3a05.png)
 
 ### Compile （编译）
