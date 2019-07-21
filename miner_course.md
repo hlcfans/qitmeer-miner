@@ -194,7 +194,7 @@ Before `compile`  qitmeer-miner, you need prepare the running environment:
   ```bash
   $ qitmeer-miner -h
      Usage:
-       hlc-miner [OPTIONS]
+       qitmeer-miner [OPTIONS]
      
      Debug Command:
        -l, --listdevices   List number of devices.
