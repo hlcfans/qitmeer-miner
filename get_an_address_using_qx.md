@@ -72,7 +72,7 @@ $ qx entropy
       9b50981dc5cf4b4c530a8af109be6d07162141c4c45e5b1c2e6c0941138d3041
     ```
 
-- create a `mnemonic` world-list (BIP39) from an entropy
+- create a `mnemonic` world-list (BIP39) from an entropy(seed)
 
     ```
     $ qx mnemonic-new 2311a023b585290b46bb6c68fc4235a36ee7ea4a40fa71395b67aa461d91edb4
