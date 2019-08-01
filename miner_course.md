@@ -1,54 +1,4 @@
 
-## Building qitmeer node as a server （qitmeer节点搭建）
-
-### Env preparation (环境准备)
-
-- install [git](https://git-scm.com/downloads)
-
-- Update Go to version at least 1.12 (required >= 1.12)
-
-  - install [go](http://www.runoob.com/go/go-environment.html)
-
-  - Check your golang version
-  
-  ```bash
-   ~ go version
-   go version go1.12 darwin/amd64 
-  ```
-
-### How to build
-
-- clone qitmeer repo (克隆qitmeer仓库到本地)
-
-  - `git clone https://github.com/HalalChain/qitmeer.git`
-  
-   - maybe need Personal access tokens: [setting](https://github.com/settings/tokens)
-
-- `cd qitmeer` ，then `go build` qitmeer （打开本地的qitmeer仓库，编译qitmeer）
-
-- run `./qitmeer` （运行qitmeer） 
-
-  - this will creat a directory named `.noxd`,and at the same time may report errors, you need stop qitmeer use `ctrl+c` 
-
-  - then you need put the configuration file `noxd.conf` into `.noxd` directory, after that, run `./qitmeer` again
-  
-- how to start qitmeer in the background (后台运行qitmeer)
-
-  - To start qitmeer in the background, use command ``nohup ./qitmeer >log.log 2>&1 &``, this will output logs as log.log
-  
-  - view logs by using `tail -f log.log`
-  
-  - view the qitmeer process by using `ps -ef|grep qitmeer`
-  
-  - kill one process by using ``kill -2 <process number>``
-  
-- update qitmeer local repo（更新库）
-
-  - use ``git pull``, then `go build` qitmeer and run `./qitmeer` again.
-  
-    Before update，you need kill the qitmeer process firstly. 
-
-
 ## Qitmeer-miner
 
 ### Environment preparation (环境准备)
@@ -236,4 +186,56 @@ Before `compile`  qitmeer-miner, you need prepare the running environment:
        -h, --help          Show this help message 
   ```   
   
+
+
+
+
+## Building qitmeer node as a server （qitmeer节点搭建）
+
+### Env preparation (环境准备)
+
+- install [git](https://git-scm.com/downloads)
+
+- Update Go to version at least 1.12 (required >= 1.12)
+
+  - install [go](http://www.runoob.com/go/go-environment.html)
+
+  - Check your golang version
   
+  ```bash
+   ~ go version
+   go version go1.12 darwin/amd64 
+  ```
+
+### How to build
+
+- clone qitmeer repo (克隆qitmeer仓库到本地)
+
+  - `git clone https://github.com/HalalChain/qitmeer.git`
+  
+   - maybe need Personal access tokens: [setting](https://github.com/settings/tokens)
+
+- `cd qitmeer` ，then `go build` qitmeer （打开本地的qitmeer仓库，编译qitmeer）
+
+- run qitmeer using the command `./qitmeer` （运行qitmeer） 
+
+  - this will creat a directory named `.qitmeerd`,and at the same time may report errors, you need stop qitmeer use `ctrl+c` 
+
+  - then you need put the configuration file `qitmeerd.conf` into `.qitmeerd` directory, after that, run `./qitmeer` again 
+  
+- how to start qitmeer in the background (后台运行qitmeer)
+
+  - To start qitmeer in the background, use command ``nohup ./qitmeer >log.log 2>&1 &``, this will output logs as log.log
+  
+  - view logs by using `tail -f log.log`
+  
+  - view the qitmeer process by using `ps -ef|grep qitmeer`
+  
+  - kill one process by using ``kill -2 <process number>``
+  
+- update qitmeer local repo（更新库）
+
+  - use ``git pull``, then `go build` qitmeer and run `./qitmeer` again.
+  
+    Before update，you need kill the qitmeer process firstly. 
+
