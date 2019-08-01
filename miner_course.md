@@ -63,7 +63,7 @@ Before `compile`  qitmeer-miner, you need prepare the running environment:
 
 **You can compile the miner by yourself, or use the miner compiled by others**. But you still need to prepare for the `mingw-w64` and `CUDA v10.1` environment.   
 
-**你可以自己编译miner，也可以直接使用别人编译好的**。但可能同样需要准备 `mingw-w64` 和 `cuda v10.1` 环境。
+**你可以自己编译miner，也可以直接使用别人编译好的**。但可能同样需要准备 `mingw-w64` 和 `cuda v10.1` 环境。**注意添加系统环境变量路径**。
 
 
 ### use qitmeer-miner for mining (挖矿)
