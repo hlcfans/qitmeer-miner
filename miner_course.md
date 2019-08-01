@@ -13,6 +13,10 @@ Before `compile`  qitmeer-miner, you need prepare the running environment:
 
 - install [mingw-w64](http://www.mingw-w64.org/doku.php) , then add mingw-w64 bin path to windows：[guidance](https://www.cnblogs.com/ggg-327931457/p/9694516.html)
 
+  set windows env, add the path of `mingw64\bin` into the system PATH variable，maybe like this:
+  
+
+
 - install [cuda v10.1](https://developer.nvidia.com/cuda-downloads) 
   
   then set windows env，like `LIBRARY_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64`
