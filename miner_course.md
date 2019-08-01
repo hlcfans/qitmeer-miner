@@ -15,6 +15,7 @@ Before `compile`  qitmeer-miner, you need prepare the running environment:
 
   set windows env, add the path of `mingw64\bin` into the system PATH variable，maybe like this:
   
+  ![mingw64-evn](https://user-images.githubusercontent.com/32875657/62271565-80634300-b46b-11e9-9819-642a09700fda.png)
 
 
 - install [cuda v10.1](https://developer.nvidia.com/cuda-downloads) 
