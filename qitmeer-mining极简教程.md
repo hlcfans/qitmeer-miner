@@ -41,6 +41,8 @@
   - 挖矿地址：pooluser=TmbCBKbZF8PeSdj5Chm22T4hZRMJY5D8XyX（配置自己的挖矿地址，可以从[cahf钱包](http://www.kahf.io/)中获得）
   
   
+`使用solo挖矿时，使用 # 将pool配置注释掉；使用pool挖矿时，使用 # 将solo配置注释掉`
+  
 ## 第三步：启动程序挖矿
 
 此处以 windows 系统下的操作为例。
@@ -57,6 +59,5 @@
   ![mining2](https://user-images.githubusercontent.com/32875657/63503357-e3dc1000-c501-11e9-8f44-529dabfd4e37.PNG)
   
   4. 退出挖矿：使用组合按键 `Ctrl+C`
-
 
 
