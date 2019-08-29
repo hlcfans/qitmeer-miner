@@ -1,7 +1,11 @@
 
 ## Qitmeer-miner
+此教程适用于自己编译miner的用户。
 
 ### Environment preparation (环境准备)
+
+ 
+【在编译 miner 之前需要准备的系统环境和工具：go 语言环境；git 工具；ming-w64 环境（windows系统）；cuda v10.1 环境】
 
 Before `compile`  qitmeer-miner, you need prepare the running environment:
 
@@ -24,15 +28,19 @@ Before `compile`  qitmeer-miner, you need prepare the running environment:
 
   may be like this:    
   ![image](https://user-images.githubusercontent.com/32875657/61025357-0cd99300-a3e3-11e9-9d4d-582b7dfe3a05.png)
+  
+  
 
-### Compile （编译）
+### Compile （编译 miner）
 
-- clone the repo
+- clone the repo【克隆miner仓库到本地】
 
   `$ git clone https://github.com/HalalChain/qitmeer-miner.git`
   
-- go build
+- go build【执行go build命令编译miner程序】
 
+  不同系统选择不同的执行方式：
+  
   - Ubuntu ENV
          
   ```bash
