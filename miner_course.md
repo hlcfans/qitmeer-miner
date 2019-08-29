@@ -68,6 +68,11 @@ Before `compile`  qitmeer-miner, you need prepare the running environment:
    $ go build 
    ```
 
+windows env for example【以下以windows系统下为例】：
+
+all ENV is ok，open git 【当已准备好了所有环境，打开 git 如图执行】：
+
+
 
 **You can compile the miner by yourself, or use the miner compiled by others**. But you still need to prepare for the `mingw-w64` and `CUDA v10.1` environment.   
 
