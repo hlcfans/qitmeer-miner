@@ -73,6 +73,15 @@ windows env for example【以下以windows系统下为例】：
 all ENV is ok，open git 【当已准备好了所有环境，打开 git 如图执行】：
 
 
+![m001](https://user-images.githubusercontent.com/32875657/63913078-6f552400-ca61-11e9-89e3-8eef9980423d.png)
+
+![m002](https://user-images.githubusercontent.com/32875657/63913112-8431b780-ca61-11e9-93ca-a0ee293184de.png)
+
+![m004](https://user-images.githubusercontent.com/32875657/63913126-8d228900-ca61-11e9-8164-ac07fe238333.png)
+
+配置文件修改：
+![m003](https://user-images.githubusercontent.com/32875657/63913131-914ea680-ca61-11e9-8322-a47e83edbce9.png)
+
 
 **You can compile the miner by yourself, or use the miner compiled by others**. But you still need to prepare for the `mingw-w64` and `CUDA v10.1` environment.   
 
