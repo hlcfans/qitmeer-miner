@@ -2,17 +2,18 @@ Mac下终端执行文件出现“Permission Denied”解决方案:
 
 先执行下面这一句
 
+```bash
 chmod a+x ./文件名
-1
+```
+
 然后再正常执行文件就可以了
 
 例如:
+```bash
 chmod a+x ./BuildIOS.sh
 
 ./BuildIOS.sh
-1
-2
-3
+```
 就可以了
 
 
