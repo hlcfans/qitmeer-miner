@@ -2,7 +2,10 @@
 ## Qitmeer-miner
 此教程适用于自己编译miner的用户。
 
-最新版miner需要安装cargo环境，推荐参考教程：[cargo安装教程 for mac](https://www.jianshu.com/p/590548efb02b)，【for windows [安装指引](https://doc.rust-lang.org/book/ch01-01-installation.html)[exe下载](https://www.rust-lang.org/tools/install)】 
+最新版miner需要安装cargo环境，推荐参考教程：[cargo安装教程 for mac](https://www.jianshu.com/p/590548efb02b)，
+
+【for windows [安装指引](https://doc.rust-lang.org/book/ch01-01-installation.html) | [exe下载](https://www.rust-lang.org/tools/install)】 ,环境变量配置 `$PATH = %USERPROFILE%\.cargo\bin`
+
 2019.11.1update  
 
 如果没有cargo，go build 编译时可能出现报错：
