@@ -2,6 +2,9 @@
 ## Qitmeer-miner
 此教程适用于自己编译miner的用户。
 
+最新版miner需要安装cargo环境，推荐参考教材：https://www.jianshu.com/p/590548efb02b
+2019.11.1update
+
 ### Environment preparation (环境准备)
 
  
