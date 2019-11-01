@@ -2,8 +2,18 @@
 ## Qitmeer-miner
 此教程适用于自己编译miner的用户。
 
-最新版miner需要安装cargo环境，推荐参考教材：https://www.jianshu.com/p/590548efb02b
-2019.11.1update
+最新版miner需要安装cargo环境，推荐参考教程：[cargo安装教程](https://www.jianshu.com/p/590548efb02b)。 
+2019.11.1update  
+
+如果没有cargo，go build 编译时可能出现报错：
+
+```bash
+192:qitmeer-miner blocklee$ go build
+# qitmeer-miner/symbols/qitmeer
+ld: warning: directory not found for option '-L/Users/blocklee/git/qitmeer-miner/lib/cuckoo/target/release'
+ld: library not found for -lcuckoo
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+```
 
 ### Environment preparation (环境准备)
 
