@@ -4,7 +4,7 @@
 
 最新版miner需要安装cargo环境，推荐参考教程：[cargo安装教程 for mac](https://www.jianshu.com/p/590548efb02b)，
 
-【for windows [安装指引](https://doc.rust-lang.org/book/ch01-01-installation.html) | [exe下载](https://www.rust-lang.org/tools/install)】 ,环境变量配置 `$PATH = %USERPROFILE%\.cargo\bin`
+【cargo for windows [安装指引](https://doc.rust-lang.org/book/ch01-01-installation.html) | [exe下载](https://www.rust-lang.org/tools/install)】 ,环境变量配置 `$PATH = %USERPROFILE%\.cargo\bin`
 
 2019.11.1update  
 
@@ -17,6 +17,9 @@ ld: warning: directory not found for option '-L/Users/blocklee/git/qitmeer-miner
 ld: library not found for -lcuckoo
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ```
+
+Windows
+Install 【[Build Tools for Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16)】,安装c++生成工具
 
 ### Environment preparation (环境准备)
 
