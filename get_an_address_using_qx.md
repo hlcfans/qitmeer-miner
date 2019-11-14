@@ -2,6 +2,8 @@
 
 use qx command in cmd command window (在cmd命令窗口使用qx命令，不要在git中使用，否则会出现没有权限的情况)
 
+[从熵源到地址｜比特币源码研读](https://www.jianshu.com/p/7a77ec773a6d)
+
 ### qx --help
 
 ```
