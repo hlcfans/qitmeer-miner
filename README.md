@@ -12,3 +12,10 @@ qitmeer user course
 
 
 any questions, create [issues](https://github.com/hlcfans/qitmeer_user_course/issues)
+
+
+
+
+install [wget](https://eternallybored.org/misc/wget/)
+
+[Win10安装wget](https://blog.csdn.net/AnonymKing/article/details/86644448)
